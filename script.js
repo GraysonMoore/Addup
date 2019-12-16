@@ -15,7 +15,7 @@ if (promp === pw) {
 $("#button").click(function(event) {
 	var a = Number($("#inputh").val());
 	var b = Number($("#inputm").val());
-	var answer = a * 85 + b * 2;
+	var answer = a * 105 + b * 2.86;
 	$("#answer h1").detach();
 	$("p").detach();
 	$("#answer").append("<p>Standard Price: </p><h1>$" + answer.toFixed(2) + "</h1>");
